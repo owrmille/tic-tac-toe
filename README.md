@@ -13,7 +13,9 @@ STAGE 2/5
 Our program should be able to display the grid at all stages of the game. Now we’re going to write a program that allows the user to enter a string representing the game state and correctly prints the 3x3 game grid based on this input. We’ll also add some boundaries around the game grid.
 
 Objectives
+
 In this stage, you will write a program that:
+
 Reads a string of 9 symbols from the input and displays them to the user in a 3x3 grid. The grid can contain only X, O and _ symbols.
 Outputs a line of dashes --------- above and below the grid, adds a pipe | symbol to the beginning and end of each line of the grid, and adds a space between all characters in the grid.
 
@@ -22,7 +24,9 @@ STAGE 3/5
 In this stage, we’re going to analyze the game state to determine if either player has already won the game or it is still ongoing, if the game is a draw, or if the user has entered an impossible game state (two winners, or with one player having made too many moves).
 
 Objectives
+
 In this stage, your program should:
+
 Take a string entered by the user and print the game grid as in the previous stage.
 Analyze the game state and print the result. Possible states:
 Game not finished when neither side has three in a row but the grid still has empty cells.
@@ -49,7 +53,9 @@ In this stage, the user plays as X, not O. Keep in mind that the first coordinat
 What happens if the user enters incorrect coordinates? The user could enter symbols instead of numbers, or enter coordinates representing occupied cells or cells that aren’t even on the grid. You need to check the user's input and catch possible exceptions.
 
 Objectives
+
 The program should work as follows:
+
 Get the 3x3 grid from the input as in the previous stages.
 Output this 3x3 grid as in the previous stages.
 Prompt the user to make a move.
@@ -70,7 +76,9 @@ Our game is almost ready! Now let's combine what we’ve learned in the previous
 The first player has to play as X and their opponent plays as O.
 
 Objectives
+
 In this stage, you should write a program that:
+
 Prints an empty grid at the beginning of the game.
 Creates a game loop where the program asks the user to enter the cell coordinates, analyzes the move for correctness and shows a grid with the changes if everything is okay.
 Ends the game when someone wins or there is a draw.
